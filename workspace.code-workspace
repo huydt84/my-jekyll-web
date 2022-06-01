@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		{
+			"type": "java",
+			"name": "Attach",
+			"request": "attach",
+			"hostName": "localhost",
+			"port": "<debug port of the debuggee>"
+		},
+			{
+				"type": "java",
+				"name": "Launch Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Launch CellGenericExample",
+				"request": "launch",
+				"mainClass": "CellGenericExample"
+			},
+			{
+				"type": "java",
+				"name": "Launch Condition",
+				"request": "launch",
+				"mainClass": "Condition"
+			}
+		]
+	}
+}
